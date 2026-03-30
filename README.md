@@ -149,17 +149,6 @@ CORS_ORIGIN=https://your-frontend-domain.com
 
 Do not include a trailing slash.
 
-## What was improved
-
-- fixed browser-side integration architecture by moving API calls server-side
-- added timeout handling for external API calls
-- added Express rate limiting
-- added safer input validation and user-facing error messages
-- improved fallback scoring logic
-- replaced PDF export with structured JSON export
-- separated frontend into `index.html`, `style.css`, and `script.js`
-- preserved the original uploaded HTML as `public/index.original.html`
-
 ## Notes
 
 End-to-end live verification of TinyFish and VirusTotal depends on valid API keys and the exact behavior of those external APIs at runtime.
