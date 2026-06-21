@@ -2,6 +2,23 @@
 
 PhishGuard is a lightweight phishing detection web app built with vanilla HTML/CSS/JavaScript on the frontend and Node.js + Express on the backend. It scans a suspicious URL, then combines evidence from TinyFish, VirusTotal, and RDAP/WHOIS into a single report with a risk score, verdict, redirect chain, threat indicators, and JSON export.
 
+## Video Demos
+
+### 1. Phishing website with website designed to impersonate a brand
+
+
+
+https://github.com/user-attachments/assets/8a726ad9-840c-42ce-bf1d-42b0df95dfc9
+
+
+### 2. Normal website
+
+
+
+https://github.com/user-attachments/assets/6839e070-efcf-4602-8fa4-7231875a0a64
+
+
+
 ## Architecture
 
 ```
